@@ -1,0 +1,386 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(220, 242, 242);
+}
+
+.blue-container {
+    position: relative;
+    background-color: black;
+    height: 600px;
+    width: 1300px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.box-1 {
+    position: absolute;
+    background-color: rgb(79, 79, 199);
+    height: 235px;
+    width: 190px;
+    top: 125px;
+    left: 215px;
+    border-radius: 8px; 
+    z-index: 1; 
+}
+
+.photo img {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.report-for {
+    color: rgb(185, 176, 176);
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.jeremy-robson {
+    color: white;
+    margin-left: 23px;
+}
+
+.box-2 {
+    position: absolute;
+    background-color: rgb(34, 35, 71);
+    height: 135px;
+    width: 190px;
+    top: 340px;
+    left: 215px;
+    border-radius: 8px; 
+}
+
+.daily {
+    color: rgb(185, 176, 176);
+    margin-top: 40px;
+    margin-left: 23px;
+}
+
+.weakly {
+    color: white;
+    margin-top: 17px;
+    margin-left: 23px;
+}
+
+.monthly {
+    color:  rgb(185, 176, 176);
+    margin-top: 17px;
+    margin-left: 23px;
+}
+
+.box-3 {
+    position: absolute;
+    top: 125px;
+    left: 435px;
+    background-color: orangered;
+    height: 50px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.box-4{
+    position: absolute;
+    background-color: rgb(34, 35, 71);
+    height: 135px;
+    width: 190px;
+    top: 157px;
+    left: 435px;
+    border-radius: 8px;
+    color: white; 
+}
+
+.work { 
+    position: absolute;
+    top: 20px;
+    left: 27px;
+}
+
+.box-4 i {
+    position: absolute;
+    top: 17px;
+    left: 150px;
+}
+
+.thirty-two-hours  {
+    position: absolute;
+    top: 45px;
+    left: 28px;
+    color: white;
+    font-weight: 300;
+}
+
+.last-weak-36-hours {
+    margin-top: 97px;
+    margin-left: 30px;
+    color: rgb(185, 176, 176);
+}
+
+.box-5 {
+    position: absolute;
+    top: 308px;
+    left: 435px;
+    background-color: rgb(75, 174, 75);
+    height: 50px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.box-6 {
+    position: absolute;
+    background-color: rgb(34, 35, 71);
+    height: 134px;
+    width: 190px;
+    top: 340px;
+    left: 435px;
+    border-radius: 8px;  
+}
+
+.exercise{
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 30px;
+}
+
+.box-6 i {
+    position: absolute;
+    top: 19px;
+    left: 152px;
+    color: white;  
+}
+
+.box-6 .four-hours {
+    position: absolute;
+    color: white;
+    top: 45px;
+    left: 30px;
+    font-weight: 300;
+}
+
+.box-6 .last-weak-5-hours {
+    position: absolute;
+    color: rgb(185, 176, 176);
+    top: 95px;
+    left: 30px;
+}
+
+.box-7 {
+    position: absolute;
+    top: 125px;
+    left: 655px;
+    background-color: rgb(16, 172, 215);
+    height: 50px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.box-8 {
+    position: absolute;
+    background-color: rgb(34, 35, 71);
+    height: 135px;
+    width: 190px;
+    top: 157px;
+    left: 655px;
+    border-radius: 8px;  
+}
+
+.play{
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 30px;
+}
+
+.box-8 i {
+    position: absolute;
+    top: 19px;
+    left: 152px;
+    color: white;  
+}
+
+.box-8 .ten-hours {
+    position: absolute;
+    color: white;
+    top: 45px;
+    left: 30px;
+    font-weight: 300;
+}
+
+.box-8 .last-weak-8-hours {
+    position: absolute;
+    color: rgb(185, 176, 176);
+    top: 95px;
+    left: 30px;
+}
+
+.box-9 {
+    position: absolute;
+    top: 308px;
+    left: 655px;
+    background-color: rgb(213, 89, 237);
+    height: 50px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.box-10 {
+    position: absolute;
+    background-color: rgb(34, 35, 71);
+    height: 134px;
+    width: 190px;
+    top: 340px;
+    left: 655px;
+    border-radius: 8px;  
+}
+
+.social{
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 30px;
+}
+
+.box-10 i {
+    position: absolute;
+    top: 19px;
+    left: 152px;
+    color: white;  
+}
+
+.box-10 .five-hours {
+    position: absolute;
+    color: white;
+    top: 45px;
+    left: 30px;
+    font-weight: 300;
+}
+
+.box-10 .last-weak-10-hours {
+    position: absolute;
+    color: rgb(185, 176, 176);
+    top: 95px;
+    left: 30px;
+}
+
+.box-11 {
+    position: absolute;
+    top: 125px;
+    left: 875px;
+    background-color: rgb(223, 15, 88);
+    height: 50px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.box-12 {
+    position: absolute;
+    background-color: rgb(34, 35, 71);
+    height: 135px;
+    width: 190px;
+    top: 157px;
+    left: 875px;
+    border-radius: 8px;  
+}
+
+.study{
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 30px;
+}
+
+.box-12 i {
+    position: absolute;
+    top: 19px;
+    left: 152px;
+    color: white;  
+}
+
+.box-12 .six-hours {
+    position: absolute;
+    color: white;
+    top: 45px;
+    left: 30px;
+    font-weight: 300;
+}
+
+.box-12 .last-weak-7-hours {
+    position: absolute;
+    color: rgb(185, 176, 176);
+    top: 95px;
+    left: 30px;
+}
+
+.box-13 {
+    position: absolute;
+    top: 308px;
+    left: 875px;
+    background-color: rgb(237, 237, 89);
+    height: 50px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.box-14 {
+    position: absolute;
+    background-color: rgb(34, 35, 71);
+    height: 134px;
+    width: 190px;
+    top: 340px;
+    left: 875px;
+    border-radius: 8px;  
+}
+
+.self-care{
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 30px;
+}
+
+.box-14 i {
+    position: absolute;
+    top: 19px;
+    left: 152px;
+    color: white;  
+}
+
+.box-14 .two-hours {
+    position: absolute;
+    color: white;
+    top: 45px;
+    left: 30px;
+    font-weight: 300;
+}
+
+.box-14 .last-weak-2-hours {
+    position: absolute;
+    color: rgb(185, 176, 176);
+    top: 95px;
+    left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
